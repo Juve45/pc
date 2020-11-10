@@ -87,3 +87,23 @@ th, td {
 #menu li a:hover {
   background-color: #111111;
 }
+
+
+
+.frac {
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+    letter-spacing: 0.001em;
+    text-align: center;
+}
+.frac > span {
+    display: block;
+    padding: 0.1em;
+}
+.frac span.bottom {
+    border-top: 2px solid white;
+}
+.frac span.symbol {
+    display: none;
+} 
