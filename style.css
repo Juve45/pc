@@ -1,7 +1,7 @@
 
 html {
 	color:white;
-	background-image:url("connectwork.png");
+	background-image:url("img/connectwork.png");
 }
 
 
@@ -107,3 +107,37 @@ th, td {
 .frac span.symbol {
     display: none;
 } 
+
+
+.cfuser a{
+  text-decoration:none !important;
+}
+
+
+.specialist a{
+  color:cyan;
+}
+
+.expert a{
+  color:blue;
+}
+
+.candidate-master  a {
+  color:#527;
+}
+
+.master  a {
+  color:orange;
+}
+
+.grandmaster a {
+  color:red;
+}
+
+.pupil a {
+  color: #1E1;
+}
+
+.newbie a {
+  color:white;
+}
